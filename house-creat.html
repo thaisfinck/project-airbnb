@@ -3,20 +3,41 @@
   <head>
     <meta charset="utf-8" />
 
-    <title>House creat</title>
+    <title>House Creat</title>
 
     <link rel="stylesheet" href="styles/bootstrap.css" />
   </head>
   <body>
     <!--header-->
-    <div class="header"></div>
+    <div class="container">
+      <nav class="navbar">
+        <div class="container-fluid mb-5">
+          <a class="navbar-brand">
+            <img
+              src="https://res.cloudinary.com/dsko6ntfj/image/upload/v1642399114/portal/web%20development%20beginners/05%20Project%20Airbnb/assets/logo-airbnb.png"
+              alt=""
+              height="40"
+              class="d-inline-block align-text-top"
+            />
+          </a>
+          <div class="d-grid gap-2 d-md-flex justify-content-md-end">
+            <button class="btn btn-outline-secondary me-md-2" type="button">
+              Thais Finck
+            </button>
+            <button class="btn btn-outline-secondary" type="button">
+              Logout
+            </button>
+          </div>
+        </div>
+      </nav>
+    </div>
     <!--header-->
 
     <div class="container">
-      <h1>List of Houses</h1>
+      <h1>List a House</h1>
       <div class="mb-3">
         <label for="exampleFormControlInput1" class="form-label mb-0" required
-          >Short title</label
+          >Short Title</label
         >
         <input type="text" class="form-control" />
       </div>
@@ -71,7 +92,9 @@
         <input type="url" class="form-control mb-1" placeholder="http://..." />
       </div>
       <div class="mb-3">
-        <button type="submit" class="btn btn-secondary">Submit</button>
+        <button type="submit" class="btn btn-secondary">
+          Submit
+        </button>
       </div>
     </div>
   </body>
